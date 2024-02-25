@@ -20,6 +20,7 @@
   "dependencies": {
     "caniuse-lite": "^1.0.30001554",
     "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
     "date-fns": "^2.30.0",
     "dotenv": "^10.0.0",
     "env-cmd": "^10.1.0",
