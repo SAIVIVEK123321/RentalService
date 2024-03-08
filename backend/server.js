@@ -5,7 +5,7 @@ const port = 5000     ;
 const dbConnection = require ('./db');
 const cors = require('cors')
 app.use(express.json());
-app.use(cors)
+app.use(cors())
 const path = require("path");
 const usersRoute = require('./routes/usersRoute')
 const carsRoute = require('./routes/carsRoute')
